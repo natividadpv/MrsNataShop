@@ -1,14 +1,20 @@
 import './App.css';
 import React from 'react';
+import Header from './components/layout/Header';
+import { Footer } from './components/layout/Footer';
 
 
 function App() {
   return (
     <div className="App">
-        <h1>TIENDA VIRTUAL</h1>
-        <img src="./images/mrsnata_logo.png" alt="Aqui el logo" width="1000" height="600"></img>
+      <Header />
+      <center>Contenido aquí</center>
+      <center>Contenido aquí</center> 
+      <center>Contenido aquí</center> 
+      <center>Contenido aquí</center> 
+      <Footer />
     </div>
   );
-}
+} 
 
 export default App;
